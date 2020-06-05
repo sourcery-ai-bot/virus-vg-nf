@@ -45,10 +45,9 @@ def main():
 #    outfile.close()
 
 def calculate_c(num_of_bases, ref_len):
-    c = 1
     while (num_of_bases / ref_len / split_into > 1000):
         split_into += 1
-    return c
+    return 1
 
 def calculate_m(num_of_bases, ref_len):
     split_into = 1
